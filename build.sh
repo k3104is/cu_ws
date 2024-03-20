@@ -1,4 +1,5 @@
 #!/bin/bash
 
+# docker build -t $(whoami)_c_ws ./
 
-docker build -t $(whoami)_cu_ws ./
+docker compose build
